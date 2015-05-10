@@ -1,0 +1,297 @@
+﻿Build started 14/06/2013 5:21:47 PM.
+     1>Project "C:\Users\Andrew\Documents\Visual Studio 2012\Projects\DLD_convert_and_correlations_for_MATLAB\DLD_convert_and_correlations_for_MATLAB\DLD_convert_and_correlations_for_MATLAB.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt convert_and_correlate.cpp
+         convert_and_correlate.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/diskio_meat.hpp(706): warning C4244: 'argument' : conversion from 'arma::uword' to 'unsigned int', possible loss of data
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/diskio_meat.hpp(716): warning C4244: 'argument' : conversion from 'const arma::uword' to 'unsigned int', possible loss of data
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/diskio_meat.hpp(721): warning C4244: 'argument' : conversion from 'arma::uword' to 'unsigned int', possible loss of data
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/diskio_meat.hpp(726): warning C4244: 'argument' : conversion from 'const arma::uword' to 'unsigned int', possible loss of data
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/diskio_meat.hpp(731): warning C4244: 'argument' : conversion from 'const arma::uword' to 'unsigned int', possible loss of data
+     1>convert_and_correlate.cpp(105): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>convert_and_correlate.cpp(214): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>convert_and_correlate.cpp(217): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>convert_and_correlate.cpp(300): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>convert_and_correlate.cpp(301): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>convert_and_correlate.cpp(301): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdlib.h(909) : see declaration of 'itoa'
+     1>convert_and_correlate.cpp(302): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>convert_and_correlate.cpp(317): warning C4244: '=' : conversion from 'std::streamoff' to 'long', possible loss of data
+     1>convert_and_correlate.cpp(319): warning C4244: '=' : conversion from 'std::streamoff' to 'long', possible loss of data
+     1>convert_and_correlate.cpp(519): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>convert_and_correlate.cpp(520): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>convert_and_correlate.cpp(521): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>convert_and_correlate.cpp(521): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdlib.h(909) : see declaration of 'itoa'
+     1>convert_and_correlate.cpp(522): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>convert_and_correlate.cpp(523): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>convert_and_correlate.cpp(537): warning C4244: '=' : conversion from 'long double' to 'long', possible loss of data
+     1>convert_and_correlate.cpp(588): warning C4244: '=' : conversion from 'long double' to 'long', possible loss of data
+     1>convert_and_correlate.cpp(605): warning C4244: '=' : conversion from 'long double' to 'long', possible loss of data
+     1>convert_and_correlate.cpp(698): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>convert_and_correlate.cpp(699): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>convert_and_correlate.cpp(700): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>convert_and_correlate.cpp(712): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>convert_and_correlate.cpp(713): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>convert_and_correlate.cpp(714): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>convert_and_correlate.cpp(725): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>convert_and_correlate.cpp(726): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>convert_and_correlate.cpp(727): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>convert_and_correlate.cpp(793): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>convert_and_correlate.cpp(871): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>convert_and_correlate.cpp(746): warning C4101: 'hist_bin_13' : unreferenced local variable
+     1>convert_and_correlate.cpp(745): warning C4101: 'dh_13' : unreferenced local variable
+     1>convert_and_correlate.cpp(745): warning C4101: 'd2_13' : unreferenced local variable
+     1>convert_and_correlate.cpp(745): warning C4101: 'd1_13' : unreferenced local variable
+     1>convert_and_correlate.cpp(982): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>convert_and_correlate.cpp(1060): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>convert_and_correlate.cpp(925): warning C4101: 'hist_bin_13' : unreferenced local variable
+     1>convert_and_correlate.cpp(924): warning C4101: 'dh_13' : unreferenced local variable
+     1>convert_and_correlate.cpp(925): warning C4101: 'hist_bin_12' : unreferenced local variable
+     1>convert_and_correlate.cpp(924): warning C4101: 'd1_23' : unreferenced local variable
+     1>convert_and_correlate.cpp(925): warning C4101: 'hist_bin_23' : unreferenced local variable
+     1>convert_and_correlate.cpp(924): warning C4101: 'd2_23' : unreferenced local variable
+     1>convert_and_correlate.cpp(924): warning C4101: 'dh_23' : unreferenced local variable
+     1>convert_and_correlate.cpp(924): warning C4101: 'd2_13' : unreferenced local variable
+     1>convert_and_correlate.cpp(924): warning C4101: 'dh_12' : unreferenced local variable
+     1>convert_and_correlate.cpp(924): warning C4101: 'd2_12' : unreferenced local variable
+     1>convert_and_correlate.cpp(924): warning C4101: 'd1_12' : unreferenced local variable
+     1>convert_and_correlate.cpp(924): warning C4101: 'd1_13' : unreferenced local variable
+     1>convert_and_correlate.cpp(937): warning C4101: 'hist_bin_12' : unreferenced local variable
+     1>convert_and_correlate.cpp(937): warning C4101: 'hist_bin_23' : unreferenced local variable
+     1>convert_and_correlate.cpp(1258): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>convert_and_correlate.cpp(1259): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>convert_and_correlate.cpp(1285): warning C4244: '=' : conversion from 'arma::u64' to 'long', possible loss of data
+     1>convert_and_correlate.cpp(1294): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>convert_and_correlate.cpp(1295): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>convert_and_correlate.cpp(1328): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>convert_and_correlate.cpp(1329): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>convert_and_correlate.cpp(1359): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>convert_and_correlate.cpp(1360): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>convert_and_correlate.cpp(1361): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>convert_and_correlate.cpp(1361): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdlib.h(909) : see declaration of 'itoa'
+     1>convert_and_correlate.cpp(1362): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>convert_and_correlate.cpp(1365): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>convert_and_correlate.cpp(1366): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>convert_and_correlate.cpp(1367): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>convert_and_correlate.cpp(1367): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdlib.h(909) : see declaration of 'itoa'
+     1>convert_and_correlate.cpp(1368): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>convert_and_correlate.cpp(1371): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>convert_and_correlate.cpp(1372): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>convert_and_correlate.cpp(1373): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>convert_and_correlate.cpp(1373): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdlib.h(909) : see declaration of 'itoa'
+     1>convert_and_correlate.cpp(1374): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>convert_and_correlate.cpp(1391): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdlib.h(909) : see declaration of 'itoa'
+     1>convert_and_correlate.cpp(1596): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>convert_and_correlate.cpp(1145): warning C4101: 'hist_bin_13' : unreferenced local variable
+     1>convert_and_correlate.cpp(1144): warning C4101: 'dh_13' : unreferenced local variable
+     1>convert_and_correlate.cpp(1145): warning C4101: 'hist_bin_12' : unreferenced local variable
+     1>convert_and_correlate.cpp(1144): warning C4101: 'd1_23' : unreferenced local variable
+     1>convert_and_correlate.cpp(1145): warning C4101: 'hist_bin_23' : unreferenced local variable
+     1>convert_and_correlate.cpp(1144): warning C4101: 'd2_23' : unreferenced local variable
+     1>convert_and_correlate.cpp(1144): warning C4101: 'dh_23' : unreferenced local variable
+     1>convert_and_correlate.cpp(1144): warning C4101: 'd2_13' : unreferenced local variable
+     1>convert_and_correlate.cpp(1144): warning C4101: 'dh_12' : unreferenced local variable
+     1>convert_and_correlate.cpp(1144): warning C4101: 'd2_12' : unreferenced local variable
+     1>convert_and_correlate.cpp(1144): warning C4101: 'd1_12' : unreferenced local variable
+     1>convert_and_correlate.cpp(1144): warning C4101: 'd1_13' : unreferenced local variable
+     1>convert_and_correlate.cpp(1445): warning C4101: 's3' : unreferenced local variable
+     1>convert_and_correlate.cpp(1445): warning C4101: 's2' : unreferenced local variable
+     1>convert_and_correlate.cpp(1445): warning C4101: 's4' : unreferenced local variable
+     1>convert_and_correlate.cpp(1658): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>convert_and_correlate.cpp(1659): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>convert_and_correlate.cpp(1660): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/SpMat_meat.hpp(3197): warning C4344: behavior change: use of explicit template arguments results in call to 'vec_type arma::linspace<arma::uvec>(const unsigned __int64,const unsigned __int64,const arma::uword,const arma::Col<eT> *)'
+                 with
+                 [
+                     vec_type=arma::uvec,
+                     eT=arma::u64
+                 ]
+                 but the regular function 'arma::mat arma::linspace(const double,const double,const arma::uword)' is a better match
+                 if you expect 'arma::mat arma::linspace(const double,const double,const arma::uword)' to be called then you need to make it an explicit specialization
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/SpMat_meat.hpp(3181) : while compiling class template member function 'const arma::SpMat<eT> &arma::SpMat<eT>::sprandu(const arma::uword,const arma::uword,const double)'
+                 with
+                 [
+                     eT=double
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/fn_sprandu.hpp(56) : see reference to function template instantiation 'const arma::SpMat<eT> &arma::SpMat<eT>::sprandu(const arma::uword,const arma::uword,const double)' being compiled
+                 with
+                 [
+                     eT=double
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/fn_speye.hpp(36) : see reference to class template instantiation 'arma::SpMat<eT>' being compiled
+                 with
+                 [
+                     eT=double
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/SpMat_meat.hpp(3274): warning C4344: behavior change: use of explicit template arguments results in call to 'vec_type arma::linspace<arma::uvec>(const unsigned __int64,const unsigned __int64,const arma::uword,const arma::Col<eT> *)'
+                 with
+                 [
+                     vec_type=arma::uvec,
+                     eT=arma::u64
+                 ]
+                 but the regular function 'arma::mat arma::linspace(const double,const double,const arma::uword)' is a better match
+                 if you expect 'arma::mat arma::linspace(const double,const double,const arma::uword)' to be called then you need to make it an explicit specialization
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/SpMat_meat.hpp(3258) : while compiling class template member function 'const arma::SpMat<eT> &arma::SpMat<eT>::sprandn(const arma::uword,const arma::uword,const double)'
+                 with
+                 [
+                     eT=double
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/fn_sprandn.hpp(56) : see reference to function template instantiation 'const arma::SpMat<eT> &arma::SpMat<eT>::sprandn(const arma::uword,const arma::uword,const double)' being compiled
+                 with
+                 [
+                     eT=double
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/memory.hpp(58): warning C4244: 'initializing' : conversion from 'const arma::uword' to 'unsigned int', possible loss of data
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/SpMat_meat.hpp(25) : see reference to function template instantiation 'eT *arma::memory::acquire<arma::uword>(const arma::uword)' being compiled
+                 with
+                 [
+                     eT=arma::uword
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/SpMat_meat.hpp(18) : while compiling class template member function 'arma::SpMat<eT>::SpMat(void)'
+                 with
+                 [
+                     eT=double
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/fn_speye.hpp(39) : see reference to function template instantiation 'arma::SpMat<eT>::SpMat(void)' being compiled
+                 with
+                 [
+                     eT=double
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/field_meat.hpp(1061): warning C4244: 'initializing' : conversion from 'const arma::uword' to 'unsigned int', possible loss of data
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/field_meat.hpp(1034) : while compiling class template member function 'void arma::field<oT>::init(const arma::uword,const arma::uword)'
+                 with
+                 [
+                     oT=std::string
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/field_meat.hpp(167) : see reference to function template instantiation 'void arma::field<oT>::init(const arma::uword,const arma::uword)' being compiled
+                 with
+                 [
+                     oT=std::string
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/field_meat.hpp(164) : while compiling class template member function 'void arma::field<oT>::set_size(const arma::uword,const arma::uword)'
+                 with
+                 [
+                     oT=std::string
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/diskio_meat.hpp(3930) : see reference to function template instantiation 'void arma::field<oT>::set_size(const arma::uword,const arma::uword)' being compiled
+                 with
+                 [
+                     oT=std::string
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/field_meat.hpp(1442) : see reference to class template instantiation 'arma::field<oT>' being compiled
+                 with
+                 [
+                     oT=std::string
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/fn_sort_index.hpp(61): warning C4244: 'argument' : conversion from 'const arma::uword' to 'unsigned int', possible loss of data
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/fn_sort_index.hpp(141) : see reference to function template instantiation 'void arma::sort_index_helper<out_elem_type,eT,0x00,0x00>(umat_elem_type *,const eT *,const arma::uword)' being compiled
+                 with
+                 [
+                     umat_elem_type=out_elem_type,
+                     eT=eT
+                 ]
+                 convert_and_correlate.cpp(1398) : see reference to function template instantiation 'arma::umat arma::sort_index<arma::subview<eT>>(const arma::Base<elem_type,derived> &,const arma::uword,const double *)' being compiled
+                 with
+                 [
+                     eT=double,
+                     elem_type=double,
+                     derived=arma::subview<double>
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/fn_sort_index.hpp(65): warning C4244: 'argument' : conversion from 'arma::uword' to 'unsigned int', possible loss of data
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/fn_sort_index.hpp(66): warning C4244: 'argument' : conversion from 'arma::uword' to 'unsigned int', possible loss of data
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/fn_sort_index.hpp(104): warning C4244: 'argument' : conversion from 'arma::uword' to 'unsigned int', possible loss of data
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/arrayops_meat.hpp(54): warning C4244: 'argument' : conversion from 'const arma::uword' to 'size_t', possible loss of data
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/arrayops_meat.hpp(23) : see reference to function template instantiation 'void arma::arrayops::copy_big<eT>(eT *,const eT *,const arma::uword)' being compiled
+                 with
+                 [
+                     eT=arma::u64
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/Mat_meat.hpp(607) : see reference to function template instantiation 'void arma::arrayops::copy<eT>(eT *,const eT *,const arma::uword)' being compiled
+                 with
+                 [
+                     eT=arma::u64
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/Mat_meat.hpp(596) : while compiling class template member function 'arma::Mat<eT>::Mat(const arma::Mat<eT> &)'
+                 with
+                 [
+                     eT=arma::u64
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/fn_sort_index.hpp(148) : see reference to function template instantiation 'arma::Mat<eT>::Mat(const arma::Mat<eT> &)' being compiled
+                 with
+                 [
+                     eT=arma::u64
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/Mat_meat.hpp(17) : while compiling class template member function 'arma::Mat<eT>::~Mat(void)'
+                 with
+                 [
+                     eT=arma::u64
+                 ]
+                 convert_and_correlate.cpp(1155) : see reference to function template instantiation 'arma::Mat<eT>::~Mat(void)' being compiled
+                 with
+                 [
+                     eT=arma::u64
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\armadillo_bits/typedef_fixed.hpp(14) : see reference to class template instantiation 'arma::Mat<eT>' being compiled
+                 with
+                 [
+                     eT=arma::u64
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Andrew\Documents\Visual Studio 2012\Projects\DLD_convert_and_correlations_for_MATLAB\Release\DLD_convert_and_correlations_for_MATLAB.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Andrew\Documents\Visual Studio 2012\Projects\DLD_convert_and_correlations_for_MATLAB\Release\DLD_convert_and_correlations_for_MATLAB.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Andrew\Documents\Visual Studio 2012\Projects\DLD_convert_and_correlations_for_MATLAB\Release\DLD_convert_and_correlations_for_MATLAB.lib" /MACHINE:X86 /SAFESEH Release\convert_and_correlate.obj
+         Generating code
+     1>c:\users\andrew\documents\visual studio 2012\projects\dld_convert_and_correlations_for_matlab\dld_convert_and_correlations_for_matlab\convert_and_correlate.cpp(998): warning C4700: uninitialized local variable 'number_pairs' used
+     1>c:\users\andrew\documents\visual studio 2012\projects\dld_convert_and_correlations_for_matlab\dld_convert_and_correlations_for_matlab\convert_and_correlate.cpp(1076): warning C4700: uninitialized local variable 'number_triples' used
+         Finished generating code
+         DLD_convert_and_correlations_for_MATLAB.vcxproj -> C:\Users\Andrew\Documents\Visual Studio 2012\Projects\DLD_convert_and_correlations_for_MATLAB\Release\DLD_convert_and_correlations_for_MATLAB.exe
+     1>Done Building Project "C:\Users\Andrew\Documents\Visual Studio 2012\Projects\DLD_convert_and_correlations_for_MATLAB\DLD_convert_and_correlations_for_MATLAB\DLD_convert_and_correlations_for_MATLAB.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.05

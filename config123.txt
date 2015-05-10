@@ -1,0 +1,7 @@
+C:\\Users\\Andrew\\Desktop\\data_crunch_mantix\\big data\\2012_07_14_hot_AL;
+1;
+20;
+1;
+0;
+1;
+
